@@ -1,0 +1,178 @@
+/* Normal desktop :992px. */
+@media (max-width: 1300px) {
+    .about-content {
+        margin-left: 30px;
+    }
+}
+@media (max-width: 1199px) {
+    .stellarnav li a {
+        font: normal normal 600 14px/43px Jost;
+       
+    }
+   
+    .about-content p {
+        font: normal normal normal 15px/24px Poppins;
+        padding: 17px 0;
+     
+    }
+
+}
+@media (max-width: 1100px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+
+/* Tablet desktop :768px. */
+@media(max-width: 991px) {
+    .stellarnav.mobile.right > ul, .stellarnav.mobile.left > ul {
+        z-index: 999;
+    }
+    .hero-content {
+        top: 50%;
+    }
+    .hero-content h4 {
+        font-size: 25px;
+        line-height: 32px;
+        width: 458px;
+    }
+    .about img {
+        height: 881px;
+    }
+    .about-content h3 {
+        font-size: 29px;
+    }
+    .testimonial-about {
+        justify-content: center;
+    }
+    .testimonial p {
+        margin: 0 auto;
+    }
+.contact-info li, .contact-info li a {
+    word-break: break-all;
+}
+.about-line img {
+    height: 216px !important;
+}
+.care-us {
+    padding: 90px;
+}
+}
+
+@media(max-width: 767px) {
+    .about .no-gutters {
+        margin: 0 auto;
+    }
+ 
+    .hero-banner .owl-prev img {
+        left: 10%;
+    }
+    .hero-banner .owl-next img {
+        right: 11%;
+    }
+    .card-content p {
+        width: unset;
+
+    }
+    .hero-content h4 {
+        font-size: 18px;
+        line-height: 23px;
+        width: 314px;
+    }
+    .care-us {
+        padding: 90px;
+    }
+    .about-content h5 {
+        padding: 41px 0 15px 0;
+    }
+    .logo {
+        text-align: start;
+    }
+    .apply-now {
+        float: right;
+    }
+    .quick-links {
+        column-count: 1;
+    }
+    footer h3 {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        margin-top: 20px;
+    }
+    .quick-links li a {
+        font: normal normal 300 16px/34px Jost;
+    }
+    .contact-info li p ,   .contact-info li q {
+        font-size: 16px;
+    }
+ .copyright {
+    justify-content: center;
+    text-align: center;
+}
+
+    .foot-2 {
+        margin-top: 40px;
+    }
+
+    .about-line img {
+        display: none;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 499px) {
+    .about-content h3 {
+        font-size: 21px;
+    }
+    
+    .hero-content {
+        top: 34%;
+    }
+    .hero-banner .owl-theme .owl-nav {
+        top: 23%;
+    }
+    .hero-banner .owl-prev img, .hero-banner .owl-next img {
+        width: 29px;
+    }
+.contact-us h3 {
+    font-size: 26px;
+}
+.hero-content h4 {
+    font-size: 12px;
+    line-height: 19px;
+    width: 195px;
+}
+.about-content p {
+    width: 268px;
+}
+.about {
+    padding: 32px 0;
+}
+.care-us {
+    padding: 33px 25px 57px 24px;
+}
+.testimonial p {
+    width: 299px;
+}
+.common h5 {
+    font-size: 29px;
+}
+.testimonial {
+    padding: 40px 0;
+}
+.testimonial .common h5 {
+    padding: 15px 0 21px 0;
+}
+footer {
+    padding-top: 13px;
+}
+.apply-now {
+    font-size: 12px;
+    width: 104px;
+    height: 28px;
+
+}
+}
